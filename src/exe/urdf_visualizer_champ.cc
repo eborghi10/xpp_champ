@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
 
   std::string urdf = "champ_rviz_urdf_robot_description";
   UrdfVisualizer champ_desired(urdf, joint_names, "base_link", "world",
-			     joint_desired_champ, "champ_des");
+			     joint_desired_champ);
 
   ::ros::spin();
 
